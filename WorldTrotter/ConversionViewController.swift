@@ -37,6 +37,7 @@ class ConversionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         updateCelsiusLabel()
+        print("ConvertionViewController loaded its view.")
     }
 
     @IBAction func fahrenheitEditingChanged(_ textField: UITextField) {
